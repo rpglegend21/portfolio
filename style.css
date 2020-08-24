@@ -12,7 +12,7 @@ body {
   #navbarMenu {
     display: none !important;
   }
-
+}
 /* #xlNavbar .nav-link div:hover {
   border-bottom: 2px solid #fff;
   }
@@ -77,10 +77,10 @@ body {
   padding: 12px 0;
 }
 
-/* background image */
+/* header */
 .bkgrnd-img {
   z-index: -1;
-  width: 100%;
+  width: 100vw;
   min-height: 600px;
   background-image: url("./images/vegas-vacation.png");
   background-size: cover;
