@@ -77,10 +77,10 @@ body {
   padding: 12px 0;
 }
 
-/* carousel */
+/* background image */
 .bkgrnd-img {
   z-index: -1;
-  width: 100vw;
+  width: 100%;
   min-height: 600px;
   background-image: url("./images/vegas-vacation.png");
   background-size: cover;
@@ -184,4 +184,84 @@ h3 {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+/* col css for projects section */
+@media (min-width: 992px){
+  .col-md-offset-1 {
+      margin-left: 8.33333333%;
+  }
+}
+
+@media (min-width: 992px){
+  .col-md-10 {
+      width: 83.33333333%;
+      float: left;
+  }
+}
+
+@media (min-width: 992px){
+  .col-lg-offset-1 {
+      margin-left: 8.33333333%;
+  }
+}
+
+@media (min-width: 1200px){
+  .col-lg-offset-1 {
+      margin-left: 8.33333333%;
+  }
+}
+
+/* used to center the col */
+@media (min-width: 1200px){
+  .col-lg-10 {
+      width: 83.33333333%;
+  }
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.projects-centered-text {
+    text-align: center;
+}
+
+/* featured art */
+.featured-projects {
+    padding: 0 8px;
+    margin-bottom: 40px;
+}
+.featured-projects-box img {
+  border: solid 1px #eee;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.featured-projects p {
+    line-height: 14px;
+    font-size: 13px;
+    color: #666;
+}
+.proj-desc {
+  font-size: 12px;
+  font-weight: 200;
+}
+.proj-desc-align {
+    float: right;
+}
+.project-name {
+  font-size: 13px;
+  font-weight: 200;
+}
+
+@media (min-width: 768px){
+  .col-sm-6 {
+    width: 50%;
+    float: left;
+  }
 }
