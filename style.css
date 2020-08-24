@@ -250,6 +250,10 @@ h3 {
   font-size: 12px;
   font-weight: 200;
 }
+
+.proj-desc a{
+  padding-left: 28px;
+}
 .proj-desc-align {
     float: right;
 }
@@ -263,4 +267,9 @@ h3 {
     width: 50%;
     float: left;
   }
+}
+
+/* clearfix for floating elements on larger devices */
+.visible-lg-block {
+    display: block !important;
 }
