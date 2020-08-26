@@ -37,6 +37,11 @@ p {
 
 }
 
+.fixed-top {
+  background-color: rgba(0, 0, 0, .6) ;
+
+}
+
 .navbar-brand, .custom-text {
   color: #FFDF00;
 }
@@ -59,12 +64,13 @@ p {
   z-index: 1;
 }
 
-#navbarMenuToggler.collapsed {
-  color: #000;
-}
+
 
 #navbarMenu .nav-link {
   color: #333;
+}
+#navbarMenu .nav-link:hover {
+  color: blue;
 }
 
 #navbarMenu {
@@ -131,7 +137,7 @@ p {
   color: #f8f8f8;
   position: relative;
   padding-top: 200px;
-  padding-bottom: 20%;
+  padding-bottom: 23%;
 }
 .intro-message > h1 {
     margin: 0;
@@ -185,6 +191,13 @@ h3 {
 }
 
 /* col css for projects section */
+@media (min-width: 768px){
+  .col-md-10 {
+      flex: 0 0 100%;
+      max-width: 100%;
+
+  }
+}
 @media (min-width: 992px){
   .col-md-offset-1 {
       margin-left: 8.33333333%;
@@ -298,6 +311,7 @@ h3 {
 
 .featured-developer {
   padding-bottom: 30px;
+  display: flex;
 }
 
 .featured-developer div {
@@ -309,7 +323,16 @@ h3 {
   margin-right: 31px;
   float: left;
 }
-
+@media (min-width: 597px){
+.featured-developer{
+    display: flex;
+  }
+}
+@media (min-width: 768px){
+.featured-developer img{
+    padding-top : 9px;
+  }
+}
 @media (min-width: 325px){
   #about {
     padding-left: 0;
@@ -322,7 +345,7 @@ h3 {
 }
 @media (min-width: 768px){
   #about {
-    padding-left: 14em;
+    padding-left: 3em;
   }
 }
 
@@ -330,6 +353,11 @@ h3 {
   .about {
     text-align: center;
     margin-right: 0;
+  }
+}
+@media (min-width: 768px){
+  .about {
+    margin-right: 3em;
   }
 }
 @media (min-width: 768px){
@@ -353,4 +381,43 @@ h3 {
     padding-bottom: 20px;
     text-align: center;
     color: #007bff;
+}
+
+/* back to top button */
+#back-top {
+  position: fixed;
+  z-index: 1000;
+  bottom: 40px;
+  right: 50px;
+}
+#back-top a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  font: 40px/100% Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFF;
+  background: #30C91F;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+#back-top a:hover {
+  color: #FFF;
+  background: #1F2AC9 ;
+}
+/* font awesome custom css */
+.fa-bars{
+  color: #30C91F;
+}
+.fas {
+  padding-top: 8px;
+}
+
+@media (max-width: 992px){
+  #back-top{
+    display: none !important
+  }
 }

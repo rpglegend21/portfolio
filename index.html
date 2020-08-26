@@ -12,7 +12,7 @@
     <title>Portfolio</title>
   </head>
   <body data-spy="scroll" data-target="navbar">
-    <nav class="navbar navbar-expand-xl py-0 position-absolute w-100" id="navbar">
+    <nav class="navbar navbar-expand-xl py-0 mx-0 fixed-top w-100 " id="navbar">
     <!-- nav for xl screens -->
       <div class="d-none d-xl-flex flex-grow-1" id="xlNavbar">
         <a class="navbar-brand py-0 pr-0 pl-2 custom-text " href="#">Richard Bretton</a>
@@ -24,6 +24,7 @@
       <!-- button and collapsed menu -->
       <a class="navbar-toggler navbar-brand py-0 pr-0 pl-2 border-0 position-relative collapsed" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler"><i class="fas fa-bars"></i></a>
       <div class="collapse navbar-collapse px-4 pb-4 font-weight-light bg-white position-absolute" id="navbarMenu">
+        <a class="nav-item nav-link" href="#">Richard Bretton</a>
         <a class="nav-item nav-link" href="#projects">Projects</a>
         <a class="nav-item nav-link" href="#about">About</a>
       </div>
@@ -145,13 +146,13 @@
     </div><!-- end projects -->
     <div class="featured-developer container-fluid">
       <div class="row">
-        <div id="about" class="col-12">
+        <div id="about" class="col-12 md-10">
           <p class="about header">A little summary</p>
           <div class="featured-developer">
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-md-6">
               <img class="img-fluid" src="./images/me.jpg">
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-9 col-md-6">
               <div class="bio">
                 <p>
                   <strong>Richard</strong> loves all things gaming, technology, and coding. He first started out learning c#.net in the early 2010's, and moved on from that into the networking space getting an A+ cert.
@@ -172,6 +173,13 @@
         </div>
       </div>
     </div>
+    <!-- scroll to top button  attempt -->
+    <p id=back-top style="display: block;">
+      <a href="#top">
+        <i class="fas fa-arrow-up">
+        </i>
+      </a>
+    </p>
     <div id="footer" class= "col-12">
       <div class="col-lg-10 col-lg-offset-1">
         <p class="copyright text">Copyright &copy Richard Bretton 2020. All Rights Reserved </p>
