@@ -263,9 +263,9 @@ h3 {
   font-weight: 200;
 }
 
-.proj-desc a{
-  padding-left: 28px;
-}
+/* .proj-desc a{
+  padding-left: 1em;
+} */
 .proj-desc-align {
     float: right;
 }
@@ -281,7 +281,13 @@ h3 {
 }
 @media (min-width: 480px){
   .proj-desc a {
-    padding-left: 17em;
+    padding-left: 11em;
+  }
+}
+
+@media (min-width: 597px){
+  .proj-desc a {
+    padding-left: 4em;
   }
 }
 @media (min-width: 576px){
