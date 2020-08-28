@@ -281,7 +281,7 @@ h3 {
 }
 @media (min-width: 480px){
   .proj-desc a {
-    padding-left: 14em;
+    padding-left: 12em;
     margin-left: 10px;
   }
 }
@@ -291,15 +291,15 @@ h3 {
     margin-left: 11px;
   }
 } */
-@media (min-width: 768px){
+/* @media (min-width: 768px){
   .proj-desc a {
     padding-left: 16em;
     margin-left: 4px;
   }
-}
+} */
 @media (min-width: 992px){
   .proj-desc a {
-    padding-left: 18em;
+    padding-left: 14em;
     margin-left: 6px;
   }
 }
