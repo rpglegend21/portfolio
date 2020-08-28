@@ -293,16 +293,16 @@ h3 {
 } */
 @media (min-width: 768px){
   .proj-desc a {
-    padding-left: 10em;
+    padding-left: 10em;6
     margin-left: 4px;
   }
 }
-@media (min-width: 992px){
+/* @media (min-width: 992px){
   .proj-desc a {
-    padding-left: 14em;
+    padding-left: 9em;
     margin-left: 6px;
   }
-}
+} */
 @media (min-width: 1200px){
   .proj-desc a {
     padding-left: 22em;
