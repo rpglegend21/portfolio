@@ -285,6 +285,12 @@ h3 {
     margin-left: 10px;
   }
 }
+@media (min-width: 697px){
+  .proj-desc a {
+    padding-left: 7em;
+    margin-left: 10px;
+  }
+}
 @media (min-width: 768px){
   .proj-desc a {
     padding-left: 9em;
