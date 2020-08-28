@@ -276,18 +276,18 @@ h3 {
 
 @media (min-width: 325px){
   .proj-desc a {
-    padding-left: 9em;
+    padding-left: 11em;
   }
 }
 @media (min-width: 480px){
   .proj-desc a {
-    padding-left: 10em;
+    padding-left: 5em;
+    margin-left: 10px;
   }
 }
 @media (min-width: 768px){
   .proj-desc a {
-    padding-left: 22em;
-    margin-left: 2px;
+    margin-left: 4px;
   }
 }
 @media (min-width: 576px){
