@@ -291,12 +291,12 @@ h3 {
     margin-left: 11px;
   }
 } */
-/* @media (min-width: 768px){
+@media (min-width: 768px){
   .proj-desc a {
-    padding-left: 16em;
+    padding-left: 10em;
     margin-left: 4px;
   }
-} */
+}
 @media (min-width: 992px){
   .proj-desc a {
     padding-left: 14em;
